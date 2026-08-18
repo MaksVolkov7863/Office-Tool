@@ -1,1 +1,45 @@
-SEE_ARTIFACT
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=System.RunTime"
+                    xml:space="preserve">
+
+    <!-- Country settings, it is used to get information from server. -->
+    <sys:String x:Key="Culture">ru-ru</sys:String>
+    <!-- Products name settings, "en-us" is default value if not set. -->
+    <sys:String x:Key="ProductDict">en-us</sys:String>
+    <!-- Markdown document font family. -->
+    <FontFamily x:Key="Markdown.FontFamily">Segoe UI</FontFamily>
+
+    <!-- Eula content -->
+    <sys:String x:Key="Eula.Title">Лицензионное соглашение</sys:String>
+    <sys:String x:Key="Eula.Content">Для использования этой программы вы должны принять [лицензионное соглашение]({0}) и [правила служб Microsoft Services]({1}).</sys:String>
+
+    <!-- Custom control -->
+    <sys:String x:Key="Yerong_String_ToggleButton.Unset">Не настроено</sys:String>
+    <sys:String x:Key="Yerong_String_ToggleButton.Off">Выключить</sys:String>
+    <sys:String x:Key="Yerong_String_ToggleButton.On">Включить</sys:String>
+    <sys:String x:Key="Yerong_String_MicaMenu.Name">Меню</sys:String>
+    <sys:String x:Key="Yerong_String_MicaMenu.HelpText">Нажмите для открытия контекстного меню.</sys:String>
+
+    <!-- Title bar -->
+    <sys:String x:Key="Title_Bar_GoBack_Button">Назад</sys:String>
+    <sys:String x:Key="Title_Bar_SysMenu_Button">Системное меню</sys:String>
+    <sys:String x:Key="Title_Bar_Command_Box">Команда</sys:String>
+
+    <!-- Navigation bar -->
+    <sys:String x:Key="Navigation_Menu.Name">Меню навигации</sys:String>
+    <sys:String x:Key="Navigation_Menu.ToolTip">Нажмите, чтобы развернуть или свернуть панель навигации.</sys:String>
+    <sys:String x:Key="Navigation_Bar.Name">Панель навигации</sys:String>
+
+    <sys:String x:Key="Navigate_Page.Home">Домашняя страница</sys:String>
+    <sys:String x:Key="Navigate_Page.Deploy">Развернуть</sys:String>
+    <sys:String x:Key="Navigate_Page.Activate">Активировать</sys:String>
+    <sys:String x:Key="Navigate_Page.Toolbox">Инструменты</sys:String>
+    <sys:String x:Key="Navigate_Page.ConvertDocuments">Конвертер документов</sys:String>
+    <sys:String x:Key="Navigate_Page.HashChecker">Проверить хеш</sys:String>
+
+    <sys:String x:Key="Navigate_Page.Settings">Настройки</sys:String>
+    <sys:String x:Key="Navigate_Page.About">О программе</sys:String>
+
+PLACEHOLDER_REST_OF_FILE_TOO_LARGE
+</ResourceDictionary>
